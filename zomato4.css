@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+#app{
+    background-color: #fffbf7;
+
+}
+#app_container{
+    width: 100%;
+    max-width: 950px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.mobile_image{
+    height: 100%;
+    width: 50%;
+}
+.mobile_image img{
+    height: 100%;
+}
+
+.app_information{
+    width: 50%;
+}
+
+.app_title h2{
+    font-size: 44px;
+    color: #1c1c1c;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.app_title p{
+    font-size: 18px;
+    color: #363636;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 25px;
+}
+
+.radio_container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+input[type="radio"]{
+    accent-color: #ef4f5f;
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+
+}
+
+.email_input_container{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+.email_input_container #email-input{
+    padding: 12px 15px;
+    border-radius: 6px;
+    border: 1px solid rgb(207,207,207);
+    outline: none;
+    width: 100%;
+}
+.email_input_container button{
+    min-width: 150px;
+    background-color: #ef4f5f;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.store p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #9c9c9c;
+    margin-bottom: 15px;
+}
+
+.store img{
+    width: 137px;
+}
+.store-image{
+    display: flex;
+    gap: 20px;
+}
+
